@@ -1,0 +1,78 @@
+
+*{
+  margin: 0
+}
+
+.navbar{
+  background-color: #353A40;
+
+}
+
+
+.navbar-brand{
+color:#ffffff !important; 
+}
+
+.nav-link
+{
+  color:#bfbfbf
+}
+.nav-link active{
+  color:#ffffff !important;
+}
+
+.nav-item:last-child .nav-link {
+  color: rgb(6, 149, 56);
+}
+
+.hero-section {
+    background-image: url('./assets/ba1.jpg');
+    background-size: cover ;
+    background-position:center;
+    
+   
+   
+    color: #ffffff;
+    height: 50svh;
+  }
+
+  .hero-content {
+   
+    margin: 0 auto;
+  }
+
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+
+
+
+  .hero-content p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+  }
+
+  .card-section {
+    padding: 3rem 0;
+  }
+  
+  .card {
+    margin-bottom: 1.5rem;
+    max-width: 15vw;
+  }
+  
+  .card-img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-title {
+    margin-bottom: 0.5rem;
+  }
